@@ -1,0 +1,57 @@
+body {
+    background-color: #f2f2f2; 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+  }
+  
+  /* Estilos para el menú */
+  .menu {
+    position: absolute; /* Posición absoluta para centrar el menú */
+    top: 50%; /* Posición vertical */
+    left: 50%; /* Posición horizontal */
+    transform: translate(-50%, -50%); /* Corrección para centrar el menú */
+    background-color: #fff; 
+    padding: 20px; 
+    border: 1px solid #ddd; /* Borde del menú */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra del menú */
+    width: 300px; /* Ancho del menú */
+    height: 300px; /* Alto del menú */
+    border-radius: 50%; /* Forma circular del menú */
+    display: flex; /* Display flex para centrar el contenido */
+    justify-content: center; /* Alineación horizontal del contenido */
+    align-items: center; /* Alineación vertical del contenido */
+  }
+  
+  /* Estilos para la lista del menú */
+  .menu ul {
+    list-style: none; 
+    padding: 0; /* Elimina el espacio interior de la lista */
+    margin: 0; /* Elimina el espacio exterior de la lista */
+  }
+  
+  /* Estilos para los elementos de la lista del menú */
+  .menu li {
+    margin-bottom: 20px; /* Espacio entre elementos de la lista */
+    transition: all 0.5s ease-in-out; /* Transición para la animación */
+  }
+  
+  /* Estilos para los elementos de la lista del menú al pasar el mouse */
+  .menu li:hover {
+    transform: scale(3); /* Escala para la animación */
+    background-color: #58ec53; /* Color de fondo para la animación */
+    color: #000000; /* Color del texto para la animación */
+    border-radius: 70px; /* Forma circular para la animación */
+  }
+  
+  /* Estilos para los enlaces del menú */
+  .menu a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #000000; /* Color de los enlaces */
+  }
+  
+  /* Estilos para los enlaces del menú al pasar el mouse */
+  .menu a:hover {
+    color: #23527c; /* Color de los enlaces al pasar el mouse */
+  }
+  
+  

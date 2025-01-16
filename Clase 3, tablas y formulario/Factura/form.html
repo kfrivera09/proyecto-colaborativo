@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos personales</title>
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        <h2>Formulario de registro</h2>
+        <section>
+          <h3>Datos personales</h3>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre"><br><br>
+          <label for="apellidos">Apellidos:</label>
+          <input type="text" id="apellidos" name="apellidos"><br><br>
+          <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+          <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br><br>
+          <label for="genero">Género:</label>
+          <input type="radio" id="hombre" name="genero" value="hombre">
+          <label for="hombre">Hombre</label>
+          <input type="radio" id="mujer" name="genero" value="mujer">
+          <label for="mujer">Mujer</label>
+          <input type="radio" id="otro" name="genero" value="otro">
+          <label for="otro">Otro</label><br><br>
+          <label for="acepto">Acepto los términos y condiciones:</label>
+          <input type="checkbox" id="acepto" name="acepto">
+        </section>
+        <section>
+          <h3>Datos de contacto</h3>
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono"><br><br>
+          <label for="direccion">Dirección:</label>
+          <input type="text" id="direccion" name="direccion"><br><br>
+        </section>
+        <section>
+          <h3>Datos adicionales</h3>
+          <label for="foto">Foto:</label>
+          <input type="file" id="foto" name="foto"><br><br>
+          <label for="descripcion">Descripción:</label>
+          <textarea id="descripcion" name="descripcion"></textarea><br><br>
+        </section>
+        <section>
+          <h3>Redes sociales</h3>
+          <label for="facebook">Facebook:</label>
+          <input type="url" id="facebook" name="facebook"><br><br>
+          <label for="twitter">Twitter:</label>
+          <input type="url" id="twitter" name="twitter"><br><br>
+          <label for="instagram">Instagram:</label>
+          <input type="url" id="instagram" name="instagram"><br><br>
+        </section>
+        <button type="submit">Enviar</button>
+        <button type="reset">Restablecer</button>
+        <Button type="submit" formaction="index.html">Volver</Button>      
+      </form>
+    
+</body>
+</html>
