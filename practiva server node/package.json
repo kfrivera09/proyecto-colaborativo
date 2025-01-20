@@ -1,0 +1,14 @@
+{
+  "name": "practiva-server-node",
+  "version": "1.0.0",
+  "description": "practica servidor node",
+  "main": "index.js",
+  "scripts": {
+    "start":"json-server --watch db.json"
+  },
+  "author": "kevin rivera",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

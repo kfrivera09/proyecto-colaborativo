@@ -1,0 +1,188 @@
+{
+  "docente": [
+    {
+      "nombre": "Jhonatan",
+      "apellido": "Giraldo",
+      "asignaturas": [
+        {
+          "nombre": "HTML"
+        },
+        {
+          "nombre": "CSS"
+        },
+        {
+          "nombre": "NODEJS"
+        },
+        {
+          "nombre": "java"
+        }
+      ],
+      "id": "431c"
+    },
+    {
+      "nombre": "Devrier",
+      "apellido": "peñaloza",
+      "asignaturas": [
+        {
+          "nombre": "javascript"
+        },
+        {
+          "nombre": "react"
+        },
+        {
+          "nombre": "NODEJS"
+        }
+      ],
+      "id": "7148"
+    },
+    {
+      "id": "4c0d",
+      "nombre": "samir",
+      "apellido": "figueroa",
+      "asignaturas": [
+        {
+          "nombre": "Angular"
+        },
+        {
+          "nombre": "laravel"
+        },
+        {
+          "nombre": "NODEJS"
+        }
+      ]
+    }
+  ],
+  "estudiantes": [
+    {
+      "nombre": "kevin",
+      "apellido": "rivera",
+      "promedio": "7.5",
+      "id": "cc8b"
+    },
+    {
+      "nombre": "hector",
+      "apellido": "rocero",
+      "promedio": "6.5",
+      "id": "e2f5"
+    },
+    {
+      "nombre": "Michel",
+      "apellido": "lopez",
+      "promedio": "8.5",
+      "id": "1af0"
+    },
+    {
+      "id": "ddfc",
+      "nombre": "Juan",
+      "apellido": "ochoa",
+      "promedio": "1.0"
+    }
+  ],
+  "boot": [
+    {
+      "nombre": "fullstack",
+      "descripcion": "Desarrollo de aplicaciones web",
+      "duracion": "120 horas",
+      "nivel": "Basico",
+      "id": "c5b6"
+    },
+    {
+      "nombre": "fullstack",
+      "descripcion": "Desarrollo de aplicaciones web",
+      "duracion": "120 horas",
+      "nivel": "intermedio",
+      "id": "aa7d"
+    },
+    {
+      "nombre": "fullstack",
+      "descripcion": "Desarrollo de aplicaciones web",
+      "duracion": "120 horas",
+      "nivel": "Avanzado",
+      "id": "fa6c"
+    },
+    {
+      "nombre": "Inteligencia artificial",
+      "descripcion": "uso de inteligencia artificial",
+      "duracion": "120 horas",
+      "nivel": "Basico",
+      "id": "799d"
+    },
+    {
+      "id": "3e99",
+      "nombre": "Inteligencia artificial",
+      "descripcion": "uso de inteligencia artificial",
+      "duracion": "120 horas",
+      "nivel": "Intermedio"
+    },
+    {
+      "id": "5d3c",
+      "nombre": "Inteligencia artificial",
+      "descripcion": "uso de inteligencia artificial",
+      "duracion": "120 horas",
+      "nivel": "Avanzado"
+    },
+    {
+      "id": "6a18",
+      "nombre": "Arquitectura en la nube",
+      "descripcion": "uso de inteligencia artificial",
+      "duracion": "120 horas",
+      "nivel": "basico"
+    },
+    {
+      "id": "4dcf",
+      "nombre": "Arquitectura en la nube",
+      "descripcion": "uso de inteligencia artificial",
+      "duracion": "120 horas",
+      "nivel": "intermedio"
+    },
+    {
+      "id": "c872",
+      "nombre": "Arquitectura en la nube",
+      "descripcion": "uso de inteligencia artificial",
+      "duracion": "120 horas",
+      "nivel": "avanzado"
+    },
+    {
+      "id": "5e90",
+      "nombre": "blockchain",
+      "descripcion": "uso de inteligencia artificial",
+      "duracion": "120 horas",
+      "nivel": "basico"
+    },
+    {
+      "id": "fe7b",
+      "nombre": "blockchain",
+      "descripcion": "uso de inteligencia artificial",
+      "duracion": "120 horas",
+      "nivel": "intermedio"
+    },
+    {
+      "id": "f73e",
+      "nombre": "blockchain",
+      "descripcion": "uso de inteligencia artificial",
+      "duracion": "120 horas",
+      "nivel": "avanzado"
+    },
+    {
+      "id": "9076",
+      "nombre": "ciberseguridad",
+      "descripcion": "uso de inteligencia artificial",
+      "duracion": "120 horas",
+      "nivel": "basico"
+    },
+    {
+      "id": "339e",
+      "nombre": "ciberseguridad",
+      "descripcion": "uso de inteligencia artificial",
+      "duracion": "120 horas",
+      "nivel": "intermedio"
+    },
+    {
+      "id": "aa93",
+      "nombre": "ciberseguridad",
+      "descripcion": "uso de inteligencia artificial",
+      "duracion": "120 horas",
+      "nivel": "avanzado"
+    }
+  ]
+}
