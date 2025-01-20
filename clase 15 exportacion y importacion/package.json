@@ -1,0 +1,12 @@
+{
+  "name": "clase-15-exportacion-y-importacion",
+  "version": "1.0.0",
+  "description": "exportacion y importacion",
+  "main": "index.js",
+  "scripts": {
+    "start": "node 0.0.1.js",
+    "start:esm": "node 0.0.2.js"
+  },
+  "author": "kevin ferney rivera gelpud",
+  "license": "ISC"
+}
