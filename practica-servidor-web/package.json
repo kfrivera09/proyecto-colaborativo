@@ -1,0 +1,19 @@
+{
+  "name": "practica-servdor-web",
+  "version": "1.0.0",
+  "description": "Levantamos un servidor web ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "kevin ferney rivera gelpud",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "env-var": "^7.5.0",
+    "express": "^4.21.2"
+  }
+}
